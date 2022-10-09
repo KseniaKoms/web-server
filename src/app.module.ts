@@ -10,7 +10,7 @@ import { PostsModule } from './posts/posts.module';
     ConfigModule.forRoot(),
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '127.0.0.1',
       port: 3306,
       username: process.env.DATABASE_USERNAME,
       password: process.env.DATABASE_PASSWORD,
